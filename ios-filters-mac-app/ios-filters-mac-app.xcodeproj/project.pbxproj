@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		136235652182540B0069944D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136235642182540B0069944D /* AppDelegate.swift */; };
-		136235672182540B0069944D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136235662182540B0069944D /* ViewController.swift */; };
+		136235672182540B0069944D /* ImageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136235662182540B0069944D /* ImageFilterViewController.swift */; };
 		136235692182540C0069944D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136235682182540C0069944D /* Assets.xcassets */; };
 		1362356C2182540C0069944D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1362356A2182540C0069944D /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		136235612182540B0069944D /* ios-filters-mac-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-filters-mac-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		136235642182540B0069944D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		136235662182540B0069944D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		136235662182540B0069944D /* ImageFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFilterViewController.swift; sourceTree = "<group>"; };
 		136235682182540C0069944D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1362356B2182540C0069944D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1362356D2182540C0069944D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				136235642182540B0069944D /* AppDelegate.swift */,
-				136235662182540B0069944D /* ViewController.swift */,
+				136235662182540B0069944D /* ImageFilterViewController.swift */,
 				136235682182540C0069944D /* Assets.xcassets */,
 				1362356A2182540C0069944D /* Main.storyboard */,
 				1362356D2182540C0069944D /* Info.plist */,
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136235672182540B0069944D /* ViewController.swift in Sources */,
+				136235672182540B0069944D /* ImageFilterViewController.swift in Sources */,
 				136235652182540B0069944D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
