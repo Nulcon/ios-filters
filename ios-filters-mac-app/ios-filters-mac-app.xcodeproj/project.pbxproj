@@ -54,13 +54,29 @@
 			isa = PBXGroup;
 			children = (
 				136235642182540B0069944D /* AppDelegate.swift */,
-				136235662182540B0069944D /* ImageFilterViewController.swift */,
+				1362357521825B0A0069944D /* View Controllers */,
+				1362357421825AFB0069944D /* Resources */,
+			);
+			path = "ios-filters-mac-app";
+			sourceTree = "<group>";
+		};
+		1362357421825AFB0069944D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				136235682182540C0069944D /* Assets.xcassets */,
 				1362356A2182540C0069944D /* Main.storyboard */,
 				1362356D2182540C0069944D /* Info.plist */,
 				1362356E2182540C0069944D /* ios_filters_mac_app.entitlements */,
 			);
-			path = "ios-filters-mac-app";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1362357521825B0A0069944D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				136235662182540B0069944D /* ImageFilterViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 627UZVK698;
-				INFOPLIST_FILE = "ios-filters-mac-app/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-filters-mac-app/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -294,7 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 627UZVK698;
-				INFOPLIST_FILE = "ios-filters-mac-app/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-filters-mac-app/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
