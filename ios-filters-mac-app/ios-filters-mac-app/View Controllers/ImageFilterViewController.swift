@@ -8,18 +8,22 @@
 
 import Cocoa
 
-class ImageFilterViewController: NSViewController {
-
+class ImageFilterViewController: NSViewController, DragProtocol {
+    func dragged(fileAtURL URL: NSURL) {
+        imageView.isHidden = false
+        imageView.image = NSImage(byReferencing: URL as URL)
+        dragAnImageLabel.isHidden = true
+    }
+    
+    private let filter = CIFilter(name: "CIColorControls")!
+    
+    @IBOutlet var imageView: NSImageView!
+    @IBOutlet var dragAnImageLabel: NSTextField!
+    @IBOutlet var dragView: DragView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
-        }
+        dragView.delegate = self
     }
 }
 

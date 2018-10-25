@@ -11,6 +11,7 @@
 		136235672182540B0069944D /* ImageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136235662182540B0069944D /* ImageFilterViewController.swift */; };
 		136235692182540C0069944D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136235682182540C0069944D /* Assets.xcassets */; };
 		1362356C2182540C0069944D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1362356A2182540C0069944D /* Main.storyboard */; };
+		13623577218261460069944D /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13623576218261460069944D /* DragView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1362356B2182540C0069944D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1362356D2182540C0069944D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1362356E2182540C0069944D /* ios_filters_mac_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ios_filters_mac_app.entitlements; sourceTree = "<group>"; };
+		13623576218261460069944D /* DragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				136235642182540B0069944D /* AppDelegate.swift */,
 				1362357521825B0A0069944D /* View Controllers */,
 				1362357421825AFB0069944D /* Resources */,
+				136235782182614C0069944D /* Views */,
 			);
 			path = "ios-filters-mac-app";
 			sourceTree = "<group>";
@@ -77,6 +80,14 @@
 				136235662182540B0069944D /* ImageFilterViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		136235782182614C0069944D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13623576218261460069944D /* DragView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			files = (
 				136235672182540B0069944D /* ImageFilterViewController.swift in Sources */,
 				136235652182540B0069944D /* AppDelegate.swift in Sources */,
+				13623577218261460069944D /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "ios-filters-mac-app/ios_filters_mac_app.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ios-filters-mac-app/Resources/ios_filters_mac_app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 627UZVK698;
@@ -306,7 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "ios-filters-mac-app/ios_filters_mac_app.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ios-filters-mac-app/Resources/ios_filters_mac_app.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 627UZVK698;
